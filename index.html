@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AFA - argentina</title>
+  <link rel="shortcut icon" href="Assets/images/pngegg (6).png" type="image/x-icon">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./Assets/css/style.css">
+  <link rel="stylesheet" href="./Assets/css/fa.css">
+  <script src="./Assets/js/tailwind.js">
+
+  </script>
+  <script src="./Assets/js/jq.js"></script>
+  <link rel='stylesheet ' href='Assets/css/carou.css'>
+  <script src='./Assets/js/caraousal.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+  <!-- CSS -->
+
+<script src="./Assets/js/slick.js" ></script>
+<link rel="stylesheet" href="./Assets/css/slick-thema.css"  />
+<link rel="stylesheet" href="Assets/css/slick.css" />
+</head>
+
+<body class="overflow-x-hidden font-Anek font-bold">
+  <!-- HEADER -->
+  <header>
+    <nav class="fixed w-full z-50 ">
+      <div class="container m-auto px-6 md:px-12 lg:px-7">
+        <div class="flex flex-wrap items-center justify-between py-6 gap-6 md:py-4 md:gap-0 relative">
+          <input type="checkbox" name="toggle_nav" id="toggle_nav" class="peer hidden">
+          <div class="w-full flex justify-end md:w-max md:px-0">
+
+            <div class="flex items-center md:hidden max-h-10">
+              <label role="button" for="toggle_nav" aria-label="humburger" id="hamburger"
+                class="relative z-40 px-2 py-3 sm:-mr-6">
+                <div id="line" class="m-auto h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-300 transition duration-300">
+                </div>
+                <div id="line2"
+                  class="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 dark:bg-gray-300 transition duration-300">
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <label role="button" for="toggle_nav"
+            class="fixed w-full z-30 h-full top-0 left-0 bg-gray-700 bg-opacity-40 hidden peer-checked:block md:peer-checked:hidden"></label>
+
+          <div class="flex z-50 flex-col md:flex-row justify-between 
+            items-center gap-y-4 p-6 bg-white dark:bg-gray-800 md:w-8/12 
+            md:gap-y-4 md:p-0 
+            md:bg-transparent lg:w-7/12 fixed top-0 -left-full transition-all duration-500 peer-checked:left-0 max-w-sm h-full 
+            md:left-0 md:h-auto w-4/5 md:max-w-none md:relative lg:first-letter:top-0">
+
+            <div class="block w-full h-full md:h-auto bg-black">
+              <ul class="absolute -left-24 nav-bar-ul space-y-8 tracking-wide font-medium md:flex flex flex-col md:flex-row md:space-y-0">
+                <li>
+                  <a href="#" class="block md:px-3 group">
+                    <div
+                      class="relative text-gray-600
+                                before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                      <span
+                        class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">HOME</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#nike" class="block md:px-3 group">
+                    <div
+                      class="relative text-gray-600
+                                            before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                      <span
+                        class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">HIGHLIGHTS</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#players" class="block md:px-3 group">
+                    <div
+                      class="relative text-gray-600
+                                            before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                      <span
+                        class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">PLAYERS</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#showcase" class="block md:px-3 group">
+                    <div
+                      class="relative text-gray-600
+                                            before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                      <span
+                        class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">SHOWCASE</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section transition-all w-full overflow-hidden h-screen relative">
+    <img class="absolute w-full h-full object-cover" src="Assets/images/bg2.png" alt="">
+    <div class="relative w-full h-screen overflow-hidden hidden lg:block">
+      <div class=" wrap-l absolute w-3/5 h-screen -left-1/4 -rotate-12 rounded-lg">
+        <div class="relative w-full h-full">
+          <div class="absolute  text-[#0f6270]  right-0 rotate-12 top-1/2 -translate-y-1/2 flex items-center justify-center flex-col ">
+          <h1 class="text-2xl xl:text-4xl 2xl:text-6xl mb-5 font-bold">AFA</h1>
+          <p class="text-md xl:text-xl 2xl:text-2xl">The governing body of football in <br> Argentina  basedin Buenos Aires.
+             It <br> organises the main divisions of  <br> Argentine league system, including<br>
+              domestic cups: Copa Argentina, Copa de <br> la Liga Profesional and the
+               Trofeo  <br> de Campeones de la Liga Profesional</p>
+              </div>
+            </div>
+      </div>
+      <div class=" wrap-r absolute w-3/5 h-screen -right-1/4 rotate-12 rounded-lg">
+        <div id="stage">
+          <!-- <a href="#"><img src="./Assets/images/dybale_.png" width="360" height="270"></a> -->
+          <a href="#"><img src="./Assets/images/messi.png" width="360" height="270"></a>
+          <a href="#"><img src="./Assets/images/GK.png" width="360" height="270"></a>
+          <a href="#"><img src="./Assets/images/di maria_.png" width="360" height="270"></a>
+         
+      </div>
+      </div>
+    </div>
+
+    <div class="absolute z-10 w-full h-screen backdrop-blur-[2px] bg-white/30  lg:hidden flex items-center justify-center flex-col">
+      <h1 class="text-2xl mb-5 text-white " >Argentine Football Association </h1>
+          <p class="text-md text-center text-white">The governing body of football in <br> Argentina  basedin Buenos Aires.
+             It <br> organises the main divisions of  <br> Argentine league system, including<br>
+              domestic cups: Copa Argentina, Copa de <br> la Liga Profesional and the
+               Trofeo  <br> de Campeones de la Liga Profesional</p>
+    </div>
+
+  </section>
+
+  <!-- VIDEO ADJUST SECTION  UP-->
+  <section class="video-adjust-section-up h-screen relative hidden lg:block  transition-all">
+    <div class="absolute z-10 w-full h-screen bg-slate-500 opacity-40"></div>
+    <img class="absolute w-full h-full object-cover" src="Assets/images/ar2.jpg" alt="">
+  </section>
+
+  <!-- VIDEO SECTION -->
+  <div id="vd" class="video-container h-[7000px] hidden lg:hidden  passenger transition-all">
+    <div class="fixed w-full h-screen bg-slate-500 opacity-40"></div>
+    <div class="video">
+      <video class="overflow-hidden fixed -z-30 w-full h-full object-cover" id="video"
+        src="Assets/videos/vidd (online-video-cutter.com).mp4"></video>
+    </div>
+  </div>
+
+  <!-- VIDEO ADJUST SECTION  DOWN-->
+  <section class="video-adjust-section-down h-screen relative hidden lg:block transition-all">
+    <div class="absolute z-10 w-full h-screen bg-slate-500 opacity-40"></div>
+    <img class="absolute w-full h-full object-cover" src="Assets/images/Team2.png" alt="">
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <div id="highlights" class="wrapper-all">
+  <section id="nike" class="flex flex-col items-center w-screen overflow-hidden">
+
+    <div class="inline-flex justify-center items-center w-full">
+      <hr class="my-8 w-11/12 h-0.5  border-0 bg-sky-700">
+      <span
+        class="absolute sm:left-1/2 md:left-[9%] px-3 font-medium  text-sky-700 bg-white text-2xl ">HIGHLIGHTS</span>
+    </div>
+
+
+    <div class="w-[90vw] justify-center hidden lg:flex ">
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5 active overflow-hidden"
+        style="background-image: url('Img/Argentina\ 21\ Australia\ -\ FIFA\ World\ Cup\ Qatar\ 2022.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">Argentina 2-1 Australia - FIFA World Cup Qatar 2022</h3>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5  overflow-hidden"
+        style="background-image: url('Img/Argentina\ 3-2\ West\ Germany\ \ Extended\ Highlights\ \ 1986\ FIFA\ World\ Cup\ Final.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">Argentina 3-2 West Germany | Extended Highlights</h3>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5 overflow-hidden"
+        style="background-image: url('Img/Argentina\ ●\ Road\ to\ the\ World\ Cup\ 2022.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">Argentina ● Road to the World Cup 2022</h3>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5 overflow-hidden"
+        style="background-image: url('Img/NED\ 22\ ARG\ \(34\ on\ PEN\)\ -\ FIFA\ World\ Cup\ Qatar\ 2022.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">NED 2-2 ARG (3-4 on PEN) | FIFA World Cup Qatar 2022</h3>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5 overflow-hidden"
+        style="background-image: url('Img/Lionel\ Messi\ World\ Cup\ 2022.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">Lionel Messi World Cup 2022</h3>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5 overflow-hidden"
+        style="background-image: url('Img/k6rc4CS1TTA-HD.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">Argentina 3:0 Croatia - FIFA World Cup Qatar 2022</h3>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5 overflow-hidden"
+        style="background-image: url('Img/0ETH1tJB2Fs-HD.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">Argentina vs Serbia and Montenegro 6-0 WC 2006 - Messi debut in World Cup - Extended
+              Highlights</h3>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="panel bg-cover bg-center bg-no-repeat relative text-lg font-bold text-white cursor-pointer m-2.5 overflow-hidden"
+        style="background-image: url('Img/CqicZqsLytg-HD.jpg');">
+        <div
+          class="wrapper-high bg-gradient-to-t from-slate-900 via-slate-400  w-full h-1/6 absolute flex  bottom-0 items-center opacity-100">
+          <div class="wrapper-icon-walking bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <i class="fas fa-walking text-slate-900"></i>
+          </div>
+          <div>
+            <h3 class=" ">Argentina vs England 2-2 (Pens 4:3) Highlights & Goals - 1998 WC Round of 16</h3>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- Small and Medium Devises -->
+
+    <div class="container lg:hidden">
+      <div id="owl-example" class="owl-carousel w-full h-56 md:h-auto  overflow-hidden">
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> Argentina 2-1 Australia - FIFA World Cup Qatar 2022</p>
+          </div>
+
+          <img class="object-cover" src="Img/Argentina 21 Australia - FIFA World Cup Qatar 2022.jpg" alt="">
+        </div>
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> Argentina 3-2 West Germany | Extended Highlights</p>
+          </div>
+          <img class="object-cover"
+            src="Img/Argentina 3-2 West Germany  Extended Highlights  1986 FIFA World Cup Final.jpg" alt="">
+        </div>
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> Argentina ● Road to the World Cup 2022</p>
+          </div>
+          <img class="object-cover" src="Img/Argentina ● Road to the World Cup 2022.jpg " alt="Argentina ● Road to the World Cup 2022">
+        </div>
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> NED 2-2 ARG (3-4 on PEN) | FIFA World Cup Qatar 2022 </p>
+          </div>
+          <img class="object-cover" src="Img/NED 22 ARG (34 on PEN) - FIFA World Cup Qatar 2022.jpg" alt="">
+        </div>
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> Lionel Messi World Cup 2022</p>
+          </div>
+          <img class="object-cover" src="./Img/Lionel Messi World Cup 2022.jpg" alt="">
+        </div>
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> Argentina 3:0 Croatia - FIFA World Cup Qatar 2022</p>
+          </div>
+          <img class="object-cover" src="/Img/k6rc4CS1TTA-HD.jpg" alt="">
+        </div>
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> Argentina vs Serbia and Montenegro 6-0 WC 2006 - Messi debut in World Cup - Extended
+              Highlights</p>
+          </div>
+          <img class="object-cover" src="/Img/0ETH1tJB2Fs-HD.jpg" alt="">
+        </div>
+        <div class="mx-2 rounded-md overflow-hidden  h-48 md:h-auto relative">
+          <div class="absolute bottom-0 bg-gradient-to-t from-gray-700 via-gray-500 w-full h-10 md:h-20 flex items-center justify-center">
+            <p class="text-white text-base md:text-3xl text-center"> Argentina vs England 2-2 (Pens 4:3) Highlights & Goals - 1998 WC Round of 16</p>
+          </div>
+          <img class="object-cover" src="/Img/CqicZqsLytg-HD.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAYERS -->
+  <section id="players" class="players-section">
+    <div class="inline-flex justify-center items-center w-full">
+      <hr class="my-8 w-11/12 h-0.5  border-0 bg-sky-700">
+      <span
+        class="absolute sm:left-1/2 md:left-[9%] px-3 font-medium  text-sky-700 bg-white text-2xl ">PLAYERS</span>
+    </div>
+
+    <ul id="ul" class="flex items-center justify-center flex-wrap list-none p-0">
+
+    </ul>
+  </section>
+
+  <!-- SHOW CASE -->
+  <section id="showcase" class="showcase-section">
+    <div class="inline-flex justify-center items-center w-full">
+      <hr class="my-8 w-11/12 h-0.5  border-0 bg-sky-700">
+      <span
+        class="absolute sm:left-1/2 md:left-[9%] px-3 font-medium  text-sky-700 bg-white text-2xl ">SHOWCASE</span>
+    </div>
+
+    <div class="container flex justify-center mx-auto ">
+       
+    </div>
+    <div class="w-full bg-gray-100 0 px-10 pt-10 ">
+        <div class="container mx-auto ">
+            <div role="list" aria-label="Behind the scenes People " class="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
+                <div role="listitem" class="xl:w-1/3 transition-all sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 md:opacity-70 hover:md:opacity-100" >
+                    <div class="rounded overflow-hidden shadow-md bg-white h-[254px]">
+                        <div class="absolute -mt-20 w-full flex justify-center">
+                            <div class="h-32 w-32">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Copa_Kirin_1987.jpg/640px-Copa_Kirin_1987.jpg" alt="Display Picture of Andres Berlin" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                            </div>
+                        </div>
+                        <div class="px-6 mt-16">
+                            <h1 class="font-bold  text-3xl text-center mb-1">Kirin Cup</h1>
+                            <p class="text-gray-800  text-sm text-center mt-4">Champions</p>
+
+                            <p class="text-center text-gray-600 text-base font-bold pt-8">Winners &diamondsuit; 1992</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div role="listitem" class="xl:w-1/3 transition-all lg:mx-3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 md:opacity-70 hover:md:opacity-100">
+                    <div class="rounded overflow-hidden shadow-md bg-white h-[254px]">
+                        <div class="absolute -mt-20 w-full flex justify-center">
+                            <div class="h-32 w-32">
+                                <img  src="https://staticc.sportskeeda.com/wp-content/uploads/2017/06/confederations-cup-records-1497555709-800.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                            </div>
+                        </div>
+                        <div class="px-6 mt-16">
+                            <h1 class="font-bold  text-3xl text-center mb-1">FIFA Confederations Cup</h1>
+                            <p class="text-gray-800  text-sm text-center">Champions</p>
+                            <p class="text-center text-gray-600  text-base pt-3 font-bold">Winners &diamondsuit; 1972</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div role="listitem" class="xl:w-1/3 transition-all sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 md:opacity-70 hover:md:opacity-100">
+                    <div class="rounded overflow-hidden shadow-md bg-white h-[254px]">
+                        <div class="absolute -mt-20 w-full flex justify-center">
+                            <div class="h-32 w-32">
+                                <img src="https://cloudinary.fifa.com/m/6e6c51d56752bd7a/original/The-FIFA-World-Cup-Trophy.jpg" alt="Display Picture of Johnson Stone" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                            </div>
+                        </div>
+                        <div class="px-6 mt-16">
+                            <h1 class="font-bold  text-3xl text-center mb-1">FIFA World Cup</h1>
+                            <p class="text-gray-800  text-sm text-center mt-4">Champions</p>
+                            <p class="text-center text-gray-600  text-base pt-3 font-bold mt-5 ">Winners &diamondsuit; 1978 &amp; 1986</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div role="listitem" class="xl:w-1/3 transition-all sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 md:opacity-70 hover:md:opacity-100">
+                    <div class="rounded overflow-hidden shadow-md bg-white h-[254px]">
+                        <div class="absolute -mt-20 w-full flex justify-center">
+                            <div class="h-32 w-32">
+                                <img src="https://www.reuters.com/resizer/0glh8VoWJsDN88r_R1C4J5pP8R8=/1920x1920/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/CBDCOEQ3ABPV7MOPB7ZFFVHDQI.jpg" alt="Display Picture of Dean Jones" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                            </div>
+                        </div>
+                        <div class="px-6 mt-16">
+                            <h1 class="font-bold  text-3xl text-center mb-1">Copa América</h1>
+                            <p class="text-gray-800  text-sm text-center">Champions</p>
+
+                            <p class="text-center text-gray-600  text-base pt-3 font-bold">Winners &diamondsuit; 1921, 1925, 1927, 1929, 1937, 1941, 1945, 1946, 1947, 1955, 1957, 1959, 1991, 1993 &amp; 2021 </p>                             
+                            
+                        </div>
+                    </div>
+                </div>
+                <div role="listitem" class="xl:w-1/3 transition-all sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 md:opacity-70 hover:md:opacity-100">
+                    <div class="rounded overflow-hidden shadow-md bg-white h-[254px]">
+                        <div class="absolute -mt-20 w-full flex justify-center">
+                            <div class="h-32 w-32">
+                                <img src="https://editorial.uefa.com/resources/0275-154663843158-1d9a1f2e9995-1000/finalissima_2022_jerseys_shoot.jpeg" alt="Display Picture of Rachel Adams" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                            </div>
+                        </div>
+                        <div class="px-6 mt-16">
+                            <h1 class="font-bold  text-3xl text-center mb-1">CONMEBOL–UEFA Cup of Champions</h1>
+                            <p class="text-gray-800  text-sm text-center">Champions</p>
+                            <p class="text-center text-gray-600  text-base pt-3 font-bold">Winners &diamondsuit; 1993 &amp; 2022</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div role="listitem" class="xl:w-1/3 transition-all sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 md:opacity-70 hover:md:opacity-100">
+                    <div class="rounded overflow-hidden shadow-md bg-white h-[254px]">
+                        <div class="absolute -mt-20 w-full flex justify-center">
+                            <div class="h-32 w-32">
+                                <img src="https://imgnew.outlookindia.com/public/uploads/articles/2020/6/30/AFCON-trophy-Twitter.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                            </div>
+                        </div>
+                        <div class="px-6 mt-16">
+                            <h1 class="font-bold  text-3xl text-center mb-1">Nations' Cup</h1>
+                            <p class="text-gray-800  text-sm text-center mt-4">Champions</p>
+                            <p class="text-center text-gray-600  text-base pt-3 font-bold mt-5">Winners &diamondsuit; 1964</p>
+                            
+                        </div>
+                    </div>
+                </div>
+              </div>
+           </div>
+           </div>
+  </section>
+
+  <section>
+
+<footer class="p-4 bg-slate-300 rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 ">
+    <span class="text-sm text-gray-500 sm:text-center ">© 2022 <a href="https://instagram.com/__hashimt" class="hover:underline">__hashimt </a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500  sm:mt-0">
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+</footer>
+
+  </section>
+
+</div>
+  <!-- JS FILES -->
+  <script type="module" src="./Assets/js/data.js"></script>
+  <script type="module" src="Assets/js/script.js"></script>
+</body>
+
+</html>

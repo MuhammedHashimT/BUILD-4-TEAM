@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+@import url('https://fonts.googleapis.com/css2?Muli&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ /* WRAPPERS */
+ .wrap-l{
+    background: url(../images/bg\ \(1\)_.png);
+}
+.wrap-r{
+
+    background: url(../images/bg_.png);
+}
+
+/* VIDEO ADJUSTMENT */
+
+.video-adjust-section{
+    height: 100vh;
+}
+
+
+
+
+.panel{
+    height:80vh;
+    border-radius: 50px;
+    flex:0.5;
+    transition: all 0.5s ease-in;
+}
+
+.panel h3{
+    display: none;
+}
+
+.panel .wrapper-high{
+    justify-content: center;
+}
+.panel .wrapper-high .wrapper-icon-walking{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.panel.active{
+    flex:5;
+}
+
+.panel.active h3{
+     transition: all 0.4s ease-in 0.4s;
+     display: block;
+
+}
+
+.panel.active .wrapper-high {
+    justify-content: unset;
+
+}
+
+.panel.active .wrapper-high .wrapper-icon-walking{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.foot-img{
+    position: absolute;
+    width: 2rem;
+    box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
+}
+
+@media(max-width:480px){
+    .container{
+        width:100vw;
+    }
+
+    .panel:nth-of-type(4),.panel:nth-of-type(5){
+        display:none;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sofia", sans-serif;
+  }
+  h2 {
+    color: #0a4870;
+    font-weight: 500;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  ul .booking-card {
+    flex: 0 0 300px;
+    transition: 0.3s;
+  }
+  ul .booking-card::before {
+    background: rgba(10, 72, 112, 0);
+    transition: 0.3s;
+  }
+  ul .booking-card .book-container {
+    height: 200px;
+  }
+  ul .booking-card .book-container .content {
+    transition: 0.3s;
+  }
+  ul .booking-card .book-container .content .btn {
+    border: 3px solid white;
+    padding: 10px 15px;
+    background: none;
+    font-size: 1.3em;
+    transition: 0.3s;
+  }
+  ul .booking-card .book-container .content .btn:hover {
+    background: white;
+    border: 0px solid white;
+  }
+  ul .booking-card .informations-container {
+    flex: 1 0 auto;
+    transform: translateY(206px);
+    transition: 0.3s;
+  }
+  ul .booking-card .informations-container .title {
+    font-size: 1.2em;
+  }
+  ul .booking-card .informations-container .more-information {
+    transition: 0.3s;
+  }
+  ul .booking-card .informations-container .more-information .info-and-date-container .box {
+    flex: 1 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 0.9em;
+  }
+  ul .booking-card .informations-container .more-information .disclaimer {
+    font-size: 0.8em;
+  }
+  ul .booking-card:hover::before {
+    background: rgba(10, 72, 112, 0.6);
+  }
+  ul .booking-card:hover .book-container .content {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  ul .booking-card:hover .informations-container {
+    transform: translateY(0px);
+  }
+  ul .booking-card:hover .informations-container .more-information {
+    opacity: 1;
+  }
+  @media (max-width: 768px) {
+    ul .booking-card::before {
+      background: rgba(10, 72, 112, 0.6);
+    }
+  }
+  .credits {
+    display: table;
+    background: #0a4870;
+    color: white;
+    line-height: 25px;
+    margin: 10px auto;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .credits a {
+    color: #e3ebf1;
+  }
+  
+ 
+/* stage */
+
+
+#stage {
+    /* margin: 1em auto;  */
+    width: 400px;
+    height: 50vh;
+    /* background-color: rgb(206, 125, 26); */
+    margin-left: 5%;
+    position: absolute;
+    right: 35%;
+    top: 15%;
+    /* transform: translateY(-50%); */
+    /* bottom: 10px; */
+    /* margin-top:10%; */
+    transform: rotate(-15deg);
+      /* background: url(bg_.png); */
+  }
+
+  #stage a {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+  }
+  #stage a img {
+      width: 80%;
+    height: 80%;
+    padding: 10px;
+    /* border: 1px solid rgb(119, 118, 116);    */
+    background: url(../images/bg_.png);
+    border-radius: 10px;
+  }
+
+  #stage a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    z-index: 20;
+  }
+  #stage a:nth-of-type(2) {
+    z-index: 10;
+  }
+  #stage a:nth-of-type(n+3) {
+    display: none;
+  }
+
+  
