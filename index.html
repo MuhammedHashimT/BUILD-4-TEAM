@@ -10,6 +10,7 @@
   <!-- STYLES -->
   <link rel="stylesheet" href="./Assets/css/style.css">
   <link rel="stylesheet" href="./Assets/css/fa.css">
+  <!-- TAILWIND -->
   <script src="./Assets/js/tailwind.js">
 
   </script>
@@ -25,7 +26,7 @@
 <link rel="stylesheet" href="Assets/css/slick.css" />
 </head>
 
-<body class="overflow-x-hidden font-Anek font-bold">
+<body class="overflow-x-hidden font-Anek font-bold w-screen">
   <!-- HEADER -->
   <header>
     <nav class="fixed w-full z-50 ">
@@ -50,17 +51,17 @@
             class="fixed w-full z-30 h-full top-0 left-0 bg-gray-700 bg-opacity-40 hidden peer-checked:block md:peer-checked:hidden"></label>
 
           <div class="flex z-50 flex-col md:flex-row justify-between 
-            items-center gap-y-4 p-6 bg-white dark:bg-gray-800 md:w-8/12 
+            items-center gap-y-4 p-6 bg-gray-800 dark:bg-gray-800 md:w-8/12 
             md:gap-y-4 md:p-0 
             md:bg-transparent lg:w-7/12 fixed top-0 -left-full transition-all duration-500 peer-checked:left-0 max-w-sm h-full 
             md:left-0 md:h-auto w-4/5 md:max-w-none md:relative lg:first-letter:top-0">
 
-            <div class="block w-full h-full md:h-auto bg-black">
-              <ul class="absolute -left-24 nav-bar-ul space-y-8 tracking-wide font-medium md:flex flex flex-col md:flex-row md:space-y-0">
+            <div class="block w-full h-full md:h-auto">
+              <ul class="absolute left-5 md:-left-24 nav-bar-ul space-y-8 tracking-wide font-medium md:flex flex flex-col md:flex-row md:space-y-0">
                 <li>
                   <a href="#" class="block md:px-3 group">
                     <div
-                      class="relative text-gray-600
+                      class="relative text-gray-100
                                 before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
                       <span
                         class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">HOME</span>
@@ -70,7 +71,7 @@
                 <li>
                   <a href="#highlights" class="block md:px-3 group">
                     <div
-                      class="relative text-gray-600
+                      class="relative text-gray-100
                                             before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
                       <span
                         class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">HIGHLIGHTS</span>
@@ -80,7 +81,7 @@
                 <li>
                   <a href="#players" class="block md:px-3 group">
                     <div
-                      class="relative text-gray-600
+                      class="relative text-gray-100
                                             before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
                       <span
                         class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">PLAYERS</span>
@@ -90,7 +91,7 @@
                 <li>
                   <a href="#showcase" class="block md:px-3 group">
                     <div
-                      class="relative text-gray-600
+                      class="relative text-gray-100
                                             before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100">
                       <span
                         class="transition group-hover:text-yellow-700 dark:text-gray-300 dark:group-hover:text-yellow-300 font-bold">SHOWCASE</span>
@@ -107,7 +108,7 @@
     </nav>
   </header>
 
-  <!-- HERO SECTION -->
+  <!-- HERO SECTIOTION -->
   <section class="hero-section transition-all w-full overflow-hidden h-screen relative">
     <img class="absolute w-full h-full object-cover" src="Assets/images/bg2.png" alt="">
     <div class="relative w-full h-screen overflow-hidden hidden lg:block">
@@ -126,8 +127,8 @@
         <div id="stage">
           <!-- <a href="#"><img src="./Assets/images/dybale_.png" width="360" height="270"></a> -->
           <a href="#"><img src="./Assets/images/messi.png" width="360" height="270"></a>
-          <a href="#"><img src="./Assets/images/GK.png" width="360" height="270"></a>
-          <a href="#"><img src="./Assets/images/di maria_.png" width="360" height="270"></a>
+          <!-- <a href="#"><img src="./Assets/images/GK.png" width="360" height="270"></a>
+          <a href="#"><img src="./Assets/images/di maria_.png" width="360" height="270"></a> -->
          
       </div>
       </div>
@@ -354,7 +355,7 @@
   </section>
 
   <!-- PLAYERS -->
-  <section id="players" class="players-section">
+  <section id="players" class="players-section w-screen overflow-scroll">
     <div class="inline-flex justify-center items-center w-full">
       <hr class="my-8 w-11/12 h-0.5  border-0 bg-sky-700">
       <span
